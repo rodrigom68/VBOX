@@ -1,0 +1,6 @@
+# Listando as vms 
+    vboxmanage list vms
+# Listando as que estao em execuçao
+    vboxmanage list runningvms
+# Iniciando uma vm
+    vboxmanage startvm --type headless UUID/nome da vms
